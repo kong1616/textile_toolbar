@@ -14,7 +14,4 @@ begin
   puts "=========================================================="
   puts "Success!"
   puts "=========================================================="
-rescue Exception => ex
-  puts "FAILED TO INSTALL REQUIRED FILES.  PLEASE RUN rake textile_toolbar:install."
-  puts "EXCEPTION: #{ex}"
-end
+rescue Exception =>
